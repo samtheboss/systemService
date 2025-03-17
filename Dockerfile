@@ -5,4 +5,4 @@ RUN mvn clean package -DskipTests
 FROM openjdk:22-jdk
 COPY --from=build /target/systemServices-0.0.1-SNAPSHOT.jar systemServices.jar
 EXPOSE 8082
-ENTRYPOINT ["java","-jar","systemService.jar"]
+ENTRYPOINT ["java","-jar","systemServices.jar"]
