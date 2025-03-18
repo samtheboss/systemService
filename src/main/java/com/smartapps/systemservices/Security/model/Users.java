@@ -1,16 +1,12 @@
 package com.smartapps.systemservices.Security.model;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+
 import java.math.BigInteger;
 import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "USERS")
-@Getter
-@Setter
-@NoArgsConstructor
+
 public class Users {
 
     @Id

@@ -2,15 +2,15 @@ package com.smartapps.systemservices.Models.Customers;
 
 
 import jakarta.persistence.*;
-import lombok.*;
+//import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "CUSTOMER_DETAILS")
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@Builder
 public class CustomerDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
